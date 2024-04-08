@@ -1,0 +1,50 @@
+body{
+  margin:0px;
+  padding: 0px;
+
+}
+h1{
+  color: blue;
+  text-align: center;
+}
+table {
+   
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    
+  }
+
+  th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #d0d7e3;
+    
+    }
+  table th{
+    background-color: rgb(44, 9, 137);
+    color: white;
+    
+  }
+  table tr {
+    background-color: #c3cbf6;
+    padding: 10px;
+    }
+  tr:nth-child(even){
+    background-color: #a1b5f4
+  }
+
+ tbody tr :hover{
+    background-color: rgb(234, 235, 229);
+    color:rgb(95, 68, 231)
+}
+
+@media (max-width:992px) {
+
+    .container { 
+        width: 100% !important;
+        overflow-x: scroll; 
+    }
+
+    th, td {min-width: 200px; }
+}
